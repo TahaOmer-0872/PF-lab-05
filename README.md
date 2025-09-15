@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-	char characters[3];
-	int Vowelcount = 0;
-	int Consonantcount = 0;
-	printf("Enter three alphabets: ");
-	scanf("%c %c %c", &characters[0], &characters[1], &characters[2]);
+	char characters[3];\
+	int Vowelcount = 0;\
+	int Consonantcount = 0;\
+	printf("Enter three alphabets: ");\
+	scanf("%c %c %c", &characters[0], &characters[1], &characters[2]);\
 	
 	if (characters[0] == 'a' || characters[0] == 'e' || characters[0] == 'i' || characters[0] == 'o' || characters[0] == 'u' ||
 	    characters[0] == 'A' || characters[0] == 'E' || characters[0] == 'I' || characters[0] == 'O' || characters[0] == 'U') {
