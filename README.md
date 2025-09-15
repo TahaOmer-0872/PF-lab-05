@@ -8,6 +8,6 @@ int main (){\
 	?((marks1 > marks3)? marks1 : marks3)\
 	:((marks2 > marks3) ? marks2 : marks3);
             
-    printf("Highest marks: %d\n", highest);\
-return 0;
+    printf("Highest marks: %d\n", highest);
+return 0;\
 }
